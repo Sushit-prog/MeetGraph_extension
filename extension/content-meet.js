@@ -627,7 +627,7 @@
       /^[a-z_]+$/,
       /^\d+$/,
       /^[\u4e00-\u9fff]+$/,
-      /^\s*[\u4e00-\u9fff}\s*$/
+      /^\s*[\u4e00-\u9fff]+\s*$/
     ];
     
     for (const pattern of nonSpeechPatterns) {
